@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative; 
+  }  
+
+  .extra-margin{
+  	margin-top: 10px;
+  	padding: 10px;
+  } 
+
+  .extra-border{
+  	border: 1px solid black;
+  } 
+  #section1 {color: #fff; background-color: #1E88E5;}
+  #section2 {color: #fff; background-color: #673ab7;}
+  #section3 {color: #fff; background-color: #ff9800;}
+  #section41 {color: #fff; background-color: #00bcd4;}
+  #section42 {color: #fff; background-color: #009688;}
+  
+  @media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section41, #section42  {
+        margin-left: 150px;
+    }
+  }
+
+  .table-wrapper-scroll-y {
+	  display: block;
+	  max-height: 200px;
+	  overflow-y: auto;
+	  -ms-overflow-style: -ms-autohiding-scrollbar;
+	}
+  </style>
+</head>
+	<body>
+
+	<div class="container">
+		<div class="row extra-margin extra-border">
+		    <nav class="col-sm-3">
+		    	<div class="dropdown">
+		    		<span><b>AP address</b></span>
+				    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+				    <span class="caret"></span></button>
+				    <ul class="dropdown-menu dropdown-menu-right">
+				      <li><a href="#">Teste 1</a></li>
+				      <li><a href="#">Teste 2</a></li>
+				      <li><a href="#">Teste 3</a></li>
+				    </ul>
+				  </div>  
+			</nav>
+		</div>
+		  <div class="row extra-margin">
+		   <div class="col-sm-5">
+		      <div class="table-wrapper-scroll-y">
+
+				  <table class="table table-bordered table-striped">
+				    <thead>
+				      <tr>
+				        <th scope="col">#</th>
+				        <th scope="col">CONNECTED MAC ADDRESS</th>				        
+				      </tr>
+				    </thead>
+				    <tbody>
+				      <tr>
+				        <th scope="row">1</th>
+				        <td>00:1D:7D:B2:34:F9</td>				        
+				      </tr>
+				      <tr>
+				        <th scope="row">2</th>
+				        <td>00:1D:7D:B2:34:F9</td>
+				      </tr>
+				      <tr>
+				        <th scope="row">3</th>
+				        <td>00:1D:7D:B2:34:F9</td>
+				      </tr>
+				      <tr>
+				        <th scope="row">4</th>
+				        <td>00:1D:7D:B2:34:F9</td>
+				      </tr>
+				      <tr>
+				        <th scope="row">5</th>
+				        <td>00:1D:7D:B2:34:F9</td>
+				      </tr>
+				      <tr>
+				        <th scope="row">6</th>
+				        <td>00:1D:7D:B2:34:F9</td>
+				      </tr>
+				      <tr>
+				        <th scope="row">7</th>
+				        <td>00:1D:7D:B2:34:F9</td>
+				      </tr>
+				      <tr>
+				        <th scope="row">8</th>
+				        <td>00:1D:7D:B2:34:F9</td>
+				      </tr>
+				    </tbody>
+				  </table>
+
+				</div>
+		    </div>
+		    <div class="col-sm-1">
+		    </div>
+		    <div class="col-sm-5">
+		      <div class="table-wrapper-scroll-y">
+
+				  <table class="table table-bordered table-striped">
+				    <thead>
+				      <tr>
+				        <th scope="col">#</th>
+				        <th scope="col">EXTERNAL MAC ADDRESS</th>				        
+				      </tr>
+				    </thead>
+				    <tbody>
+				      <tr>
+				        <th scope="row">1</th>
+				        <td>00:1D:7D:B2:34:F9</td>				        
+				      </tr>
+				      <tr>
+				        <th scope="row">2</th>
+				        <td>00:1D:7D:B2:34:F9</td>
+				      </tr>
+				      <tr>
+				        <th scope="row">3</th>
+				        <td>00:1D:7D:B2:34:F9</td>
+				      </tr>
+				      <tr>
+				        <th scope="row">4</th>
+				        <td>00:1D:7D:B2:34:F9</td>
+				      </tr>
+				      <tr>
+				        <th scope="row">5</th>
+				        <td>00:1D:7D:B2:34:F9</td>
+				      </tr>
+				      <tr>
+				        <th scope="row">6</th>
+				        <td>00:1D:7D:B2:34:F9</td>
+				      </tr>
+				      <tr>
+				        <th scope="row">7</th>
+				        <td>00:1D:7D:B2:34:F9</td>
+				      </tr>
+				      <tr>
+				        <th scope="row">8</th>
+				        <td>00:1D:7D:B2:34:F9</td>
+				      </tr>
+				    </tbody>
+				  </table>
+
+				</div>
+		    </div>
+		  </div>
+		</div>
+
+	</body>
+</html>
