@@ -1,0 +1,1 @@
+# Descrição geral de como funciona front-end
